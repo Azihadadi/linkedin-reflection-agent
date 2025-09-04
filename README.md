@@ -82,6 +82,8 @@ I’d love to hear your thoughts and feedback!
 ## Workflow
 The agent follows a graph-based workflow that enables iterative self-improvement:
 
-![Workflow](examples/workflow.png)
+<p align="center">
+  <img src="examples/workflow.jpg" alt="Workflow" width="300"/>
+</p>
 
 
