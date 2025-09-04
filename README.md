@@ -53,14 +53,11 @@ Follow the steps inside to:
 - Let the Reflection Agent evaluate and critique it
 
 - See the improved, polished version
-
-## Reflection Critique (agent reasoning step):
-
+  
+**Reflection Critique:**
 - Strengths: Clear announcement, professional tone, relevant hashtags.
-
 - Weaknesses: Slightly generic phrasing, could be more engaging.
-
-- Actionable Suggestions: Add enthusiasm (emoji), break long sentences for readability, include a subtle call-to-action to encourage engagement
+- Suggestions: Add enthusiasm (emoji), break long sentences, include subtle call-to-action.
 
 ## Workflow
 The agent follows a graph-based workflow that enables iterative self-improvement:
