@@ -37,9 +37,11 @@ Starting from a basic draft, the agent improves clarity, tone, and engagement �
 ```
 reflection-agent-langgraph/
 │
+├── examples/
+│   └── workflow.jpg       # graph-based workflow
 ├── Reflection_Agent.ipynb # Main notebook with full workflow
 ├── requirements.txt # Dependencies
-└── README.md #
+└── README.md
 ```
 
 ---
