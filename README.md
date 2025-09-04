@@ -1,7 +1,15 @@
 # Reflection Agent with LangGraph
 
-Build a **self-improving AI system** using [LangGraph](https://github.com/langchain-ai/langgraph) — a powerful framework for graph-based AI workflows.  
-In this guided project, we create a **Reflection Agent** that can **generate content, evaluate its own outputs, identify weaknesses, and iteratively refine results** through feedback loops.  
+This project implements a **Reflection Agent** using [LangGraph](https://github.com/langchain-ai/langgraph), designed to demonstrate how AI systems can **evaluate and improve their own outputs** through iterative feedback loops.  
+
+The agent follows a graph-based workflow that mimics **human-like reflective thinking**:  
+- It generates initial content (e.g., LinkedIn posts)  
+- Critically evaluates the quality of its outputs  
+- Identifies weaknesses and areas for improvement  
+- Refines results across multiple iterations  
+
+The result is a self-improving AI system capable of producing **clear, polished, and engaging content** with minimal human intervention.  
+
 
 ---
 
@@ -72,11 +80,8 @@ These agents can evaluate their own work, improve iteratively, and produce high-
 I’d love to hear your thoughts and feedback!
 ```
 ## Workflow
-Below is a simplified diagram of the reflection loop:
-```
-flowchart TD
-    A[Generate Draft] --> B[Evaluate Output]
-    B --> C[Identify Weaknesses]
-    C --> D[Refine Content]
-    D --> B
-```
+The agent follows a graph-based workflow that enables iterative self-improvement:
+
+![Workflow](examples/workflow.png)
+
+
