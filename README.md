@@ -26,4 +26,57 @@ Starting from a basic draft, the agent improves clarity, tone, and engagement �
 ---
 
 ## Repository Structure
-گگگ
+```
+reflection-agent-langgraph/
+│
+├── Reflection_Agent.ipynb # Main notebook with full workflow
+├── requirements.txt # Dependencies
+└── README.md #
+```
+
+---
+
+## Installation
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/your-username/reflection-agent-langgraph.git
+cd reflection-agent-langgraph
+pip install -r requirements.txt
+```
+
+## Usage
+
+Run the Jupyter notebook
+```
+jupyter notebook Reflection_Agent.ipynb
+```
+Follow the steps inside to:
+
+- Generate a draft LinkedIn post
+
+- Let the Reflection Agent evaluate and critique it
+
+- See the improved, polished version
+
+## Example Output
+
+Input (draft):
+```
+I want to share my new project about AI agents.
+```
+Refined Output (after reflection):
+```
+Excited to share my latest project on AI Reflection Agents! 🚀  
+These agents can evaluate their own work, improve iteratively, and produce high-quality results.  
+I’d love to hear your thoughts and feedback!
+```
+## Workflow
+Below is a simplified diagram of the reflection loop:
+```
+flowchart TD
+    A[Generate Draft] --> B[Evaluate Output]
+    B --> C[Identify Weaknesses]
+    C --> D[Refine Content]
+    D --> B
+```
