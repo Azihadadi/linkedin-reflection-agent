@@ -77,7 +77,7 @@ I want to share my new project about AI agents.
 ```
 Refined Output (after reflection):
 ```
-Excited to share my latest project on AI Reflection Agents! 🚀  
+Excited to share my latest project on AI Reflection Agents!
 These agents can evaluate their own work, improve iteratively, and produce high-quality results.  
 I’d love to hear your thoughts and feedback!
 ```
